@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Figma logo: stacked rounded rects forming F shape -->
+  <!-- Top: Red + Purple side by side -->
+  <rect x="24" y="8"  width="40" height="40" rx="20" fill="#F24E1E"/>
+  <rect x="64" y="8"  width="40" height="40" rx="20" fill="#FF7262"/>
+  <!-- Middle: Purple left + Blue circle right -->
+  <rect x="24" y="48" width="40" height="40" rx="20" fill="#A259FF"/>
+  <circle cx="84"    cy="68" r="20"           fill="#1ABCFE"/>
+  <!-- Bottom: Green left -->
+  <rect x="24" y="88" width="40" height="32" rx="16" fill="#0ACF83"/>
+</svg>

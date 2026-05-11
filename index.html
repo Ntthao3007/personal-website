@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thao Thanh Nguyen — AI Engineer & Researcher" />
+  <title>Thao Thanh Nguyen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- ── NAVBAR ────────────────────────────────────────────────── -->
+<nav id="navbar">
+  <div class="logo">Thao Thanh Nguyen</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about"      data-i18n="nav_about"></a></li>
+    <li><a href="#skills"     data-i18n="nav_skills"></a></li>
+    <li><a href="#experience" data-i18n="nav_exp"></a></li>
+    <li><a href="#research"   data-i18n="nav_research"></a></li>
+    <li><a href="#projects"   data-i18n="nav_projects"></a></li>
+    <li><a href="#awards"     data-i18n="nav_awards"></a></li>
+    <li><a href="#contact"    data-i18n="nav_contact"></a></li>
+  </ul>
+  <div class="nav-controls">
+    <button class="lang-btn" id="langBtn">EN</button>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- ── PROFILE ────────────────────────────────────────────── -->
+<section id="profile">
+  <div class="section__pic-container">
+    <div class="profile-avatar">TT</div>
+  </div>
+  <div class="section__text">
+    <p class="section__text__p1" data-i18n="hero_greeting"></p>
+    <h1 class="title">Thao Thanh Nguyen</h1>
+    <p class="section__text__p2" data-i18n="hero_subtitle"></p>
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('./ThanhThao_CV_2026.pdf')" data-i18n="btn_cv"></button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'" data-i18n="btn_contact"></button>
+    </div>
+    <div id="socials-container">
+      <a href="mailto:nguyenthanhthao300702@gmail.com" class="social-icon" aria-label="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/thao-thanh-nguyen-49388322a/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="https://github.com/nguyenthanhthao02" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ──────────────────────────────────────────────── -->
+<section id="about">
+  <p class="section__text__p1" data-i18n="about_sub"></p>
+  <h1 class="title" data-i18n="about_title"></h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <div class="about-avatar">TT</div>
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+          <h3 data-i18n="about_box1_h"></h3>
+          <p data-i18n="about_box1_p1"></p>
+          <p class="box-sub" data-i18n="about_box1_p2"></p>
+        </div>
+        <div class="details-container">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <h3 data-i18n="about_box2_h"></h3>
+          <p data-i18n="about_box2_p1"></p>
+          <p class="box-sub" data-i18n="about_box2_p2"></p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p data-i18n="about_bio"></p>
+      </div>
+    </div>
+  </div>
+  <button class="arrow-btn" onclick="location.href='#skills'">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+</section>
+
+<!-- ── SKILLS ─────────────────────────────────────────────── -->
+<section id="skills">
+  <p class="section__text__p1" data-i18n="skills_sub"></p>
+  <h1 class="title" data-i18n="skills_title"></h1>
+  <div class="skills-wrapper">
+
+    <div class="skill-category">
+      <h2 class="experience-sub-title skills-cat-title" data-i18n="skill_ml_title"></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="./assets/python.svg" alt="Python" class="skill-icon-img">
+          <span class="skill-name">Python</span>
+          <span class="skill-level" data-level="expert" data-i18n="level_expert"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/pytorch.svg" alt="PyTorch" class="skill-icon-img">
+          <span class="skill-name">PyTorch</span>
+          <span class="skill-level" data-level="expert" data-i18n="level_expert"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/tensorflow.svg" alt="TensorFlow" class="skill-icon-img">
+          <span class="skill-name">TensorFlow</span>
+          <span class="skill-level" data-level="exp" data-i18n="level_exp"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/huggingface.svg" alt="Hugging Face" class="skill-icon-img">
+          <span class="skill-name">Hugging Face</span>
+          <span class="skill-level" data-level="exp" data-i18n="level_exp"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/langchain.svg" alt="LangChain" class="skill-icon-img">
+          <span class="skill-name">LangChain</span>
+          <span class="skill-level" data-level="inter" data-i18n="level_inter"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/onnx.svg" alt="ONNX" class="skill-icon-img">
+          <span class="skill-name">ONNX</span>
+          <span class="skill-level" data-level="inter" data-i18n="level_inter"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/llamacpp.svg" alt="llama.cpp" class="skill-icon-img">
+          <span class="skill-name">llama.cpp</span>
+          <span class="skill-level" data-level="inter" data-i18n="level_inter"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/javascript.svg" alt="JavaScript" class="skill-icon-img">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-level" data-level="basic" data-i18n="level_basic"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h2 class="experience-sub-title skills-cat-title" data-i18n="skill_data_title"></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="./assets/pandas.svg" alt="Pandas" class="skill-icon-img">
+          <span class="skill-name">Pandas</span>
+          <span class="skill-level" data-level="expert" data-i18n="level_expert"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/numpy.svg" alt="NumPy" class="skill-icon-img">
+          <span class="skill-name">NumPy</span>
+          <span class="skill-level" data-level="expert" data-i18n="level_expert"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/matplotlib.svg" alt="Matplotlib" class="skill-icon-img">
+          <span class="skill-name">Matplotlib</span>
+          <span class="skill-level" data-level="exp" data-i18n="level_exp"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/seaborn.svg" alt="Seaborn" class="skill-icon-img">
+          <span class="skill-name">Seaborn</span>
+          <span class="skill-level" data-level="exp" data-i18n="level_exp"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/powerbi.svg" alt="Power BI" class="skill-icon-img">
+          <span class="skill-name">Power BI</span>
+          <span class="skill-level" data-level="inter" data-i18n="level_inter"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/tableau.svg" alt="Tableau" class="skill-icon-img">
+          <span class="skill-name">Tableau</span>
+          <span class="skill-level" data-level="inter" data-i18n="level_inter"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/figma.svg" alt="Figma" class="skill-icon-img">
+          <span class="skill-name">Figma</span>
+          <span class="skill-level" data-level="inter" data-i18n="level_inter"></span>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/english.svg" alt="English" class="skill-icon-img">
+          <span class="skill-name" data-i18n="skill_comm_en"></span>
+          <span class="skill-level" data-level="expert">IELTS 8.0</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <button class="arrow-btn" onclick="location.href='#experience'">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+</section>
+
+<!-- ── EXPERIENCE (3-per-page carousel) ───────────────────── -->
+<section id="experience">
+  <p class="section__text__p1" data-i18n="exp_sub"></p>
+  <h1 class="title" data-i18n="exp_title"></h1>
+
+  <div class="carousel-wrapper carousel-wide">
+    <button class="c-btn c-prev" onclick="carouselPrev('exp')" aria-label="Previous">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <div class="c-track" id="exp-track">
+
+      <!-- Page 1 -->
+      <div class="c-slide">
+        <div class="card-row">
+          <div class="details-container color-container">
+            <div class="exp-header">
+              <h2 class="experience-sub-title">Viettel AI</h2>
+              <span class="exp-date">Sep 2024 – Present</span>
+            </div>
+            <p class="exp-role" data-i18n="exp1_role"></p>
+            <p class="exp-location">Ho Chi Minh City, Vietnam</p>
+            <ul class="exp-bullets">
+              <li data-i18n="exp1_b1"></li>
+              <li data-i18n="exp1_b2"></li>
+              <li data-i18n="exp1_b3"></li>
+            </ul>
+          </div>
+          <div class="details-container color-container">
+            <div class="exp-header">
+              <h2 class="experience-sub-title">HySonLab</h2>
+              <span class="exp-date">May 2024 – May 2025</span>
+            </div>
+            <p class="exp-role" data-i18n="exp2_role"></p>
+            <p class="exp-location">Hanoi, Vietnam</p>
+            <p class="exp-topic"><em data-i18n="exp2_topic"></em></p>
+            <ul class="exp-bullets">
+              <li data-i18n="exp2_b1"></li>
+              <li data-i18n="exp2_b2"></li>
+            </ul>
+          </div>
+          <div class="details-container color-container">
+            <div class="exp-header">
+              <h2 class="experience-sub-title">VinAI</h2>
+              <span class="exp-date">Nov 2023 – Jun 2024</span>
+            </div>
+            <p class="exp-role" data-i18n="exp3_role"></p>
+            <p class="exp-location">Hanoi, Vietnam</p>
+            <p class="exp-topic"><em data-i18n="exp3_topic"></em></p>
+            <ul class="exp-bullets">
+              <li data-i18n="exp3_b1"></li>
+              <li data-i18n="exp3_b2"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 2 -->
+      <div class="c-slide">
+        <div class="card-row">
+          <div class="details-container color-container">
+            <div class="exp-header">
+              <h2 class="experience-sub-title">SUTD – Social AI Studio</h2>
+              <span class="exp-date">Feb 2023 – Jun 2023</span>
+            </div>
+            <p class="exp-role" data-i18n="exp5_role"></p>
+            <p class="exp-location">Singapore</p>
+            <p class="exp-topic"><em data-i18n="exp5_topic"></em></p>
+            <ul class="exp-bullets">
+              <li data-i18n="exp5_b1"></li>
+              <li data-i18n="exp5_b2"></li>
+            </ul>
+          </div>
+          <div class="details-container color-container">
+            <div class="exp-header">
+              <h2 class="experience-sub-title">VinUniversity – College of Health Sciences</h2>
+              <span class="exp-date">Jul 2022 – Feb 2023</span>
+            </div>
+            <p class="exp-role" data-i18n="exp6_role"></p>
+            <p class="exp-location">Hanoi, Vietnam</p>
+            <ul class="exp-bullets">
+              <li data-i18n="exp6_b1"></li>
+              <li data-i18n="exp6_b2"></li>
+            </ul>
+          </div>
+          <div class="details-container color-container">
+            <div class="exp-header">
+              <h2 class="experience-sub-title">VinUniversity – Vice Provost Office</h2>
+              <span class="exp-date">Jan 2020 – Jul 2022</span>
+            </div>
+            <p class="exp-role" data-i18n="exp7_role"></p>
+            <p class="exp-location">Hanoi, Vietnam</p>
+            <ul class="exp-bullets">
+              <li data-i18n="exp7_b1"></li>
+              <li data-i18n="exp7_b2"></li>
+              <li data-i18n="exp7_b3"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /c-track -->
+
+    <button class="c-btn c-next" onclick="carouselNext('exp')" aria-label="Next">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div><!-- /carousel-wrapper -->
+
+  <div class="c-footer">
+    <div class="c-dots" id="exp-dots"></div>
+    <span class="c-counter" id="exp-counter"></span>
+  </div>
+
+  <button class="arrow-btn" onclick="location.href='#research'">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+</section>
+
+<!-- ── RESEARCH ───────────────────────────────────────────── -->
+<section id="research">
+  <p class="section__text__p1" data-i18n="research_sub"></p>
+  <h1 class="title" data-i18n="research_title"></h1>
+  <div class="experience-details-container">
+    <div class="about-containers" style="justify-content: center;">
+      <div class="details-container color-container research-card">
+        <div class="pub-badge">ACM WWW '24</div>
+        <h2 class="experience-sub-title pub-title">"Contrastive Disentanglement for Authorship Attribution"</h2>
+        <p class="pub-authors">Zhiqiang Hu, <strong>Thao Thanh Nguyen</strong>, Yujia Hu, Chia-Yu Hung, Ming Shan Hee, Chun Wei Seah, Roy Ka-Wei Lee</p>
+        <p class="pub-venue" data-i18n="pub_venue"></p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://doi.org/10.1145/3589335.3652501')">DOI Link</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="arrow-btn" onclick="location.href='#projects'">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+</section>
+
+<!-- ── PROJECTS (3-per-page carousel) ─────────────────────── -->
+<section id="projects">
+  <p class="section__text__p1" data-i18n="projects_sub"></p>
+  <h1 class="title" data-i18n="projects_title"></h1>
+
+  <div class="carousel-wrapper carousel-wide">
+    <button class="c-btn c-prev" onclick="carouselPrev('proj')" aria-label="Previous">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <div class="c-track" id="proj-track">
+
+      <!-- Page 1 -->
+      <div class="c-slide">
+        <div class="card-row">
+          <div class="details-container color-container">
+            <img src="./assets/project-text-detox.png" alt="Cute illustration for text detoxification project" class="project-img">
+            <h2 class="experience-sub-title project-title" data-i18n="proj1_title"></h2>
+            <p class="proj-desc" data-i18n="proj1_desc"></p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" data-i18n="proj_tags_nlp"></button>
+              <button class="btn btn-color-2 project-btn" data-i18n="proj1_tag"></button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <img src="./assets/project-hate-vietnamese.png" alt="Cute illustration for Vietnamese hate speech detection project" class="project-img">
+            <h2 class="experience-sub-title project-title" data-i18n="proj2_title"></h2>
+            <p class="proj-desc" data-i18n="proj2_desc"></p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" data-i18n="proj_tags_nlp"></button>
+              <button class="btn btn-color-2 project-btn" data-i18n="proj2_tag1"></button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <img src="./assets/project-hate-korean.png" alt="Cute illustration for Korean hate speech detection project" class="project-img">
+            <h2 class="experience-sub-title project-title" data-i18n="proj3_title"></h2>
+            <p class="proj-desc" data-i18n="proj3_desc"></p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn">Multitask Learning</button>
+              <button class="btn btn-color-2 project-btn" data-i18n="proj3_tag"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 2 -->
+      <div class="c-slide">
+        <div class="card-row">
+          <div class="details-container color-container">
+            <img src="./assets/project-mental-health-tech.png" alt="Cute illustration for mental health in tech workplace project" class="project-img">
+            <h2 class="experience-sub-title project-title" data-i18n="proj4_title"></h2>
+            <p class="proj-desc" data-i18n="proj4_desc"></p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn">Tableau</button>
+              <button class="btn btn-color-2 project-btn" data-i18n="proj4_tag"></button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <img src="./assets/project-covid-prediction.png" alt="Cute illustration for COVID-19 prediction project" class="project-img">
+            <h2 class="experience-sub-title project-title" data-i18n="proj5_title"></h2>
+            <p class="proj-desc" data-i18n="proj5_desc"></p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" data-i18n="proj5_tag1"></button>
+              <button class="btn btn-color-2 project-btn">Python</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /c-track -->
+
+    <button class="c-btn c-next" onclick="carouselNext('proj')" aria-label="Next">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div><!-- /carousel-wrapper -->
+
+  <div class="c-footer">
+    <div class="c-dots" id="proj-dots"></div>
+    <span class="c-counter" id="proj-counter"></span>
+  </div>
+
+  <button class="arrow-btn" onclick="location.href='#awards'">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+</section>
+
+<!-- ── AWARDS ─────────────────────────────────────────────── -->
+<section id="awards">
+  <p class="section__text__p1" data-i18n="awards_sub"></p>
+  <h1 class="title" data-i18n="awards_title"></h1>
+  <div class="experience-details-container">
+    <div class="about-containers" style="justify-content: center;">
+      <div class="details-container awards-container">
+        <div class="awards-grid">
+          <div class="award-item"><span class="award-icon">🏆</span><p data-i18n="award1"></p></div>
+          <div class="award-item"><span class="award-icon">🔬</span><p data-i18n="award2"></p></div>
+          <div class="award-item"><span class="award-icon">📜</span><p data-i18n="award3"></p></div>
+          <div class="award-item"><span class="award-icon">🎓</span><p data-i18n="award4"></p></div>
+          <div class="award-item"><span class="award-icon">🎓</span><p data-i18n="award5"></p></div>
+          <div class="award-item"><span class="award-icon">🥈</span><p data-i18n="award6"></p></div>
+          <div class="award-item"><span class="award-icon">🥉</span><p data-i18n="award7"></p></div>
+          <div class="award-item"><span class="award-icon">🥈</span><p data-i18n="award8"></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="arrow-btn" onclick="location.href='#contact'">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow"><polyline points="6 9 12 15 18 9"/></svg>
+  </button>
+</section>
+
+<!-- ── FOOTER + CONTACT ───────────────────────────────────── -->
+<footer id="contact">
+  <p class="section__text__p1" data-i18n="contact_sub"></p>
+  <h1 class="title footer-title" data-i18n="contact_title"></h1>
+
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <svg class="icon contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <p><a href="mailto:nguyenthanhthao300702@gmail.com">nguyenthanhthao300702@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <svg class="icon contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      <p><a href="https://www.linkedin.com/in/thao-thanh-nguyen-49388322a/" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </div>
+
+  <nav class="footer-nav">
+    <ul class="nav-links">
+      <li><a href="#about"      data-i18n="nav_about"></a></li>
+      <li><a href="#skills"     data-i18n="nav_skills"></a></li>
+      <li><a href="#experience" data-i18n="nav_exp"></a></li>
+      <li><a href="#research"   data-i18n="nav_research"></a></li>
+      <li><a href="#projects"   data-i18n="nav_projects"></a></li>
+      <li><a href="#awards"     data-i18n="nav_awards"></a></li>
+    </ul>
+  </nav>
+
+  <p class="footer-copy" data-i18n="footer_copy"></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

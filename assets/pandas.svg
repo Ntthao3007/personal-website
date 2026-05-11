@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#150458"/>
+  <!-- Panda face circle -->
+  <circle cx="64" cy="72" r="42" fill="#fff"/>
+  <!-- Ears -->
+  <circle cx="28" cy="38" r="16" fill="#150458"/>
+  <circle cx="100" cy="38" r="16" fill="#150458"/>
+  <!-- Eye patches -->
+  <ellipse cx="45" cy="62" rx="14" ry="12" fill="#150458"/>
+  <ellipse cx="83" cy="62" rx="14" ry="12" fill="#150458"/>
+  <!-- Eyes -->
+  <circle cx="45" cy="62" r="6.5" fill="#fff"/>
+  <circle cx="83" cy="62" r="6.5" fill="#fff"/>
+  <circle cx="45" cy="62" r="4" fill="#150458"/>
+  <circle cx="83" cy="62" r="4" fill="#150458"/>
+  <circle cx="46.5" cy="60.5" r="1.5" fill="#fff"/>
+  <circle cx="84.5" cy="60.5" r="1.5" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="64" cy="78" rx="9" ry="6" fill="#E70488"/>
+  <!-- Mouth -->
+  <path d="M55 84 Q64 93 73 84" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
