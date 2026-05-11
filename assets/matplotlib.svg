@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#11253E"/>
+  <!-- Axes -->
+  <line x1="18" y1="14" x2="18" y2="108" stroke="#8FBFCC" stroke-width="2.5"/>
+  <line x1="18" y1="108" x2="114" y2="108" stroke="#8FBFCC" stroke-width="2.5"/>
+  <!-- Bars -->
+  <rect x="26" y="60" width="18" height="48" fill="#1F77B4" rx="3"/>
+  <rect x="50" y="36" width="18" height="72" fill="#FF7F0E" rx="3"/>
+  <rect x="74" y="72" width="18" height="36" fill="#2CA02C" rx="3"/>
+  <rect x="98" y="46" width="18" height="62" fill="#D62728" rx="3" opacity=".9"/>
+  <!-- Line plot overlay -->
+  <polyline points="35,60 59,36 83,72 107,46"
+    stroke="#9467BD" stroke-width="2.5" fill="none"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="35" cy="60" r="4" fill="#9467BD"/>
+  <circle cx="59" cy="36" r="4" fill="#9467BD"/>
+  <circle cx="83" cy="72" r="4" fill="#9467BD"/>
+  <circle cx="107" cy="46" r="4" fill="#9467BD"/>
+</svg>
